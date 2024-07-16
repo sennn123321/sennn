@@ -1,0 +1,76 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 160, 170);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+#root #buttonInput {
+    background-color: rgba(23, 156, 205, 0.899);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+#root #logout {
+    background-color: rgba(23, 156, 205, 0.899);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    font-weight: 500;
+    animation-name: rasena;
+}
+
+#root #buttonInput:hover {
+    color: #fff;
+}
+
+#root #logout:hover {
+    color: #fff;
+}
+
+@keyframes rasena {
+    form {
+        width: 0;
+        height: 0;
+    }
+
+    to {
+        width: 100;
+        height: 100;
+    }
+}
